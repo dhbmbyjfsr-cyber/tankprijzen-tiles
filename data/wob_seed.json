@@ -1,0 +1,371 @@
+{
+"week": "20260921",
+"source": "EU Weekly Oil Bulletin, prices with taxes",
+"rows": [
+{
+"country": "AT",
+"fuel_key": "e95",
+"price": 1.925
+},
+{
+"country": "AT",
+"fuel_key": "diesel",
+"price": 2.238
+},
+{
+"country": "BE",
+"fuel_key": "e95",
+"price": 1.9876
+},
+{
+"country": "BE",
+"fuel_key": "diesel",
+"price": 2.3866
+},
+{
+"country": "BE",
+"fuel_key": "lpg",
+"price": 0.944
+},
+{
+"country": "BG",
+"fuel_key": "e95",
+"price": 1.6634
+},
+{
+"country": "BG",
+"fuel_key": "diesel",
+"price": 1.9156
+},
+{
+"country": "BG",
+"fuel_key": "lpg",
+"price": 0.6756
+},
+{
+"country": "HR",
+"fuel_key": "e95",
+"price": 1.796
+},
+{
+"country": "HR",
+"fuel_key": "diesel",
+"price": 1.975
+},
+{
+"country": "HR",
+"fuel_key": "lpg",
+"price": 0.804
+},
+{
+"country": "CY",
+"fuel_key": "e95",
+"price": 1.6769
+},
+{
+"country": "CY",
+"fuel_key": "diesel",
+"price": 1.9481
+},
+{
+"country": "CZ",
+"fuel_key": "e95",
+"price": 1.884
+},
+{
+"country": "CZ",
+"fuel_key": "diesel",
+"price": 2.071
+},
+{
+"country": "CZ",
+"fuel_key": "lpg",
+"price": 0.8892
+},
+{
+"country": "DK",
+"fuel_key": "e95",
+"price": 2.6179
+},
+{
+"country": "DK",
+"fuel_key": "diesel",
+"price": 2.555
+},
+{
+"country": "EE",
+"fuel_key": "e95",
+"price": 1.917
+},
+{
+"country": "EE",
+"fuel_key": "diesel",
+"price": 2.113
+},
+{
+"country": "EE",
+"fuel_key": "lpg",
+"price": 0.986
+},
+{
+"country": "FI",
+"fuel_key": "e95",
+"price": 2.3636
+},
+{
+"country": "FI",
+"fuel_key": "diesel",
+"price": 2.5554
+},
+{
+"country": "FR",
+"fuel_key": "e95",
+"price": 2.2192
+},
+{
+"country": "FR",
+"fuel_key": "diesel",
+"price": 2.3834
+},
+{
+"country": "FR",
+"fuel_key": "lpg",
+"price": 1.0125
+},
+{
+"country": "DE",
+"fuel_key": "e95",
+"price": 2.348
+},
+{
+"country": "DE",
+"fuel_key": "diesel",
+"price": 2.457
+},
+{
+"country": "DE",
+"fuel_key": "lpg",
+"price": 1.109
+},
+{
+"country": "GR",
+"fuel_key": "e95",
+"price": 2.197
+},
+{
+"country": "GR",
+"fuel_key": "diesel",
+"price": 2.224
+},
+{
+"country": "HU",
+"fuel_key": "e95",
+"price": 1.7519
+},
+{
+"country": "HU",
+"fuel_key": "diesel",
+"price": 1.9568
+},
+{
+"country": "HU",
+"fuel_key": "lpg",
+"price": 0.9714
+},
+{
+"country": "IE",
+"fuel_key": "e95",
+"price": 1.9446
+},
+{
+"country": "IE",
+"fuel_key": "diesel",
+"price": 2.0497
+},
+{
+"country": "IT",
+"fuel_key": "e95",
+"price": 2.1412
+},
+{
+"country": "IT",
+"fuel_key": "diesel",
+"price": 2.2814
+},
+{
+"country": "IT",
+"fuel_key": "lpg",
+"price": 0.7702
+},
+{
+"country": "LV",
+"fuel_key": "e95",
+"price": 1.9972
+},
+{
+"country": "LV",
+"fuel_key": "diesel",
+"price": 2.1685
+},
+{
+"country": "LV",
+"fuel_key": "lpg",
+"price": 0.9433
+},
+{
+"country": "LT",
+"fuel_key": "e95",
+"price": 1.9499
+},
+{
+"country": "LT",
+"fuel_key": "diesel",
+"price": 2.2576
+},
+{
+"country": "LT",
+"fuel_key": "lpg",
+"price": 0.8086
+},
+{
+"country": "LU",
+"fuel_key": "e95",
+"price": 1.849
+},
+{
+"country": "LU",
+"fuel_key": "diesel",
+"price": 2.114
+},
+{
+"country": "LU",
+"fuel_key": "lpg",
+"price": 0.83
+},
+{
+"country": "MT",
+"fuel_key": "e95",
+"price": 1.34
+},
+{
+"country": "MT",
+"fuel_key": "diesel",
+"price": 1.21
+},
+{
+"country": "NL",
+"fuel_key": "e95",
+"price": 2.4488
+},
+{
+"country": "NL",
+"fuel_key": "diesel",
+"price": 2.579
+},
+{
+"country": "NL",
+"fuel_key": "lpg",
+"price": 0.9463
+},
+{
+"country": "PL",
+"fuel_key": "e95",
+"price": 1.8198
+},
+{
+"country": "PL",
+"fuel_key": "diesel",
+"price": 2.0391
+},
+{
+"country": "PL",
+"fuel_key": "lpg",
+"price": 0.7214
+},
+{
+"country": "PT",
+"fuel_key": "e95",
+"price": 2.107
+},
+{
+"country": "PT",
+"fuel_key": "diesel",
+"price": 2.21
+},
+{
+"country": "PT",
+"fuel_key": "lpg",
+"price": 0.896
+},
+{
+"country": "RO",
+"fuel_key": "e95",
+"price": 1.891
+},
+{
+"country": "RO",
+"fuel_key": "diesel",
+"price": 2.0926
+},
+{
+"country": "RO",
+"fuel_key": "lpg",
+"price": 0.8964
+},
+{
+"country": "SK",
+"fuel_key": "e95",
+"price": 1.853
+},
+{
+"country": "SK",
+"fuel_key": "diesel",
+"price": 1.95
+},
+{
+"country": "SK",
+"fuel_key": "lpg",
+"price": 0.801
+},
+{
+"country": "SI",
+"fuel_key": "e95",
+"price": 1.7064
+},
+{
+"country": "SI",
+"fuel_key": "diesel",
+"price": 1.9753
+},
+{
+"country": "SI",
+"fuel_key": "lpg",
+"price": 0.9892
+},
+{
+"country": "ES",
+"fuel_key": "e95",
+"price": 1.928
+},
+{
+"country": "ES",
+"fuel_key": "diesel",
+"price": 1.9181
+},
+{
+"country": "ES",
+"fuel_key": "lpg",
+"price": 1.1031
+},
+{
+"country": "SE",
+"fuel_key": "e95",
+"price": 1.5792
+},
+{
+"country": "SE",
+"fuel_key": "diesel",
+"price": 2.0902
+}
+]
+}

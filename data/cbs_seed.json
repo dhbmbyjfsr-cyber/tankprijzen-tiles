@@ -1,0 +1,13 @@
+{
+  "source": "CBS StatLine 80416NED (daily) + 81567NED (monthly tiers), CC BY 4.0",
+  "daily": [
+    {"period": "20260914", "fuel_key": "e10", "price": 2.434},
+    {"period": "20260914", "fuel_key": "diesel", "price": 2.494},
+    {"period": "20260914", "fuel_key": "lpg", "price": 0.936}
+  ],
+  "tiers": [
+    {"period": "2026MM08", "fuel_key": "e10", "avg_price": 2.333, "highway": 2.557, "manned": 2.326, "unmanned": 2.278},
+    {"period": "2026MM08", "fuel_key": "diesel", "avg_price": 2.369, "highway": 2.565, "manned": 2.369, "unmanned": 2.327},
+    {"period": "2026MM08", "fuel_key": "lpg", "avg_price": 0.934, "highway": 0.951, "manned": 0.931, "unmanned": null}
+  ]
+}

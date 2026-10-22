@@ -1,0 +1,33 @@
+{
+  "fx_date": "2026-10-16",
+  "fx_source": "ECB eurofxref-daily (1 EUR = rate)",
+  "note": "EUR per litre. These are national averages, not pump readings. US gallons are converted with 3.785411784 L.",
+  "rows": [
+    {"country": "US", "fuel_key": "e95", "price": 1.0167, "label": "EIA:20261012"},
+    {"country": "US", "fuel_key": "diesel", "price": 1.4506, "label": "EIA:20261012"},
+    {"country": "GB", "fuel_key": "e95", "price": 2.0771, "label": "DESNZ:20261012"},
+    {"country": "GB", "fuel_key": "diesel", "price": 2.3705, "label": "DESNZ:20261012"},
+    {"country": "AU", "fuel_key": "e95", "price": 1.4872, "label": "AIP:20261011"},
+    {"country": "CA", "fuel_key": "e95", "price": 1.1823, "label": "NRCan:20261013"},
+    {"country": "JP", "fuel_key": "e95", "price": 0.956, "label": "METI:20261013"},
+    {"country": "JP", "fuel_key": "diesel", "price": 0.8998, "label": "METI:20261013"},
+    {"country": "NO", "fuel_key": "e95", "price": 1.8279, "label": "SSB:202608"},
+    {"country": "NO", "fuel_key": "diesel", "price": 2.0218, "label": "SSB:202608"},
+    {"country": "BR", "fuel_key": "e95", "price": 1.1434, "label": "ANP:20261010"},
+    {"country": "BR", "fuel_key": "diesel", "price": 1.2868, "label": "ANP:20261010"},
+    {"country": "HK", "fuel_key": "e95", "price": 3.9313, "label": "CC-HK:20261016"},
+    {"country": "TW", "fuel_key": "e95", "price": 0.9044, "label": "CPC:20261019"},
+    {"country": "TW", "fuel_key": "diesel", "price": 0.8269, "label": "CPC:20261019"},
+    {"country": "KR", "fuel_key": "e95", "price": 1.2384, "label": "OPINET:20261019"},
+    {"country": "KR", "fuel_key": "diesel", "price": 1.2289, "label": "OPINET:20261019"},
+    {"country": "SG", "fuel_key": "e95", "price": 2.48, "label": "posted-SG:20261016"},
+    {"country": "SG", "fuel_key": "diesel", "price": 2.8274, "label": "posted-SG:20261016"},
+    {"country": "MX", "fuel_key": "e95", "price": 1.1456, "label": "CNE:20261017"},
+    {"country": "MX", "fuel_key": "diesel", "price": 1.3053, "label": "CNE:20261017"},
+    {"country": "ZA", "fuel_key": "e95", "price": 1.6122, "label": "DMRE:20261007"},
+    {"country": "NZ", "fuel_key": "e95", "price": 1.842, "label": "MBIE:20261009"},
+    {"country": "NZ", "fuel_key": "diesel", "price": 1.6152, "label": "MBIE:20261009"},
+    {"country": "CH", "fuel_key": "e95", "price": 2.3296, "label": "TCS:20261016"},
+    {"country": "CH", "fuel_key": "diesel", "price": 2.6424, "label": "TCS:20261016"}
+  ]
+}

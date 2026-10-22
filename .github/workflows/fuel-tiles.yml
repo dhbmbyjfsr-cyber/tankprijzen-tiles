@@ -1,0 +1,49 @@
+# Daily fuel-estimate tiles for TankPrijzen → GitHub Pages.
+# Lives in the PUBLIC repo tankprijzen-tiles as .github/workflows/fuel-tiles.yml, next to
+# estimate.py, data/ and scripts/build_fuel_tiles.py (see tiles/sync-fuel-to-repo.sh).
+name: fuel-tiles
+
+on:
+  schedule:
+    - cron: "37 3 * * *" # daily 03:37 UTC
+  workflow_dispatch:
+    inputs:
+      min_count:
+        description: "Refuse to publish below this many stations"
+        default: "60000"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q httpx==0.28.1 aiosqlite==0.20.0
+      - name: Build tiles (CBS + Oil Bulletin refresh, bundled seeds as fallback)
+        run: python scripts/build_fuel_tiles.py --out public --min-count "${{ inputs.min_count || '60000' }}"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
